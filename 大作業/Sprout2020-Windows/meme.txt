@@ -1,0 +1,46 @@
+10
+
+0
+image cat_lay.txt
+text-begin
+Hello! My name is Nyan
+text-end
+end
+
+1
+image cat_look.txt
+text-begin
+I am looking for fish.
+text-end
+end
+
+2
+image cat_look.txt
+text-begin
+Fish is on my ?
+[d] left side
+[f] right side
+text-end
+
+goto d 3
+goto f 4
+end
+
+3
+image cat_empty.txt
+text-begin
+No... here is nothing!
+text-end
+goto d 2
+end
+
+4
+image jinkela.txt
+text-begin
+The Fish give me JINKELA ! This is something good!
+
+                    == THE END ===
+text-end
+
+
+end
